@@ -1,0 +1,187 @@
+\documentclass{beamer}
+
+\usepackage{tikz}
+\usepackage{media9}
+\usepackage{multimedia}
+\usepackage{animate}
+
+\begin{document}
+
+	\newlength\imagewidth
+	\newlength\imagescale
+	\pgfmathsetlength{\imagewidth}{10cm}
+	\pgfmathsetlength{\imagescale}{\imagewidth/100}
+	
+	\begin{tikzpicture}[x=\imagescale,y=\imagescale]
+	\node[anchor=south west,inner sep=0,outer sep=0] at (0,0)
+	{\includegraphics[width=\imagewidth]{daftpunk.jpg}};
+	
+	
+
+	\definecolor {cinza1}{RGB}{51,51,51}
+	\definecolor{cinza2}{RGB}{60,64,65}
+	\definecolor{cinza3}{RGB}{76,76,76}
+	\definecolor{cinza4}{RGB}{89,90,85}
+	\definecolor{azul1}{RGB}{63,76,92}
+	\definecolor{cinza5}{RGB}{61,61,59}
+	\definecolor{cinza6}{RGB}{79,75,74}
+	\definecolor{azul2}{RGB}{60,76,92}
+	\definecolor{azul3}{RGB}{72,88,101}
+	\definecolor{azul4}{RGB}{120,141,160}
+	\definecolor{azul5}{RGB}{137,155,167}
+	\definecolor{azul6}{RGB}{165,179,190}
+	\definecolor{azul7}{RGB}{131,148,164}
+	\definecolor{azul8}{RGB}{77,94,112}
+	\definecolor{cinza7}{RGB}{40,51,57}
+	\definecolor{cinza8}{RGB}{132,153,174}
+	\definecolor{cinza9}{RGB}{122,139,159}
+	\definecolor{cinza10}{RGB}{102,126,152}
+	\definecolor{cinza11}{RGB}{118,140,163}
+	\definecolor{cinza12}{RGB}{133,154,175}
+	\definecolor{cinza13}{RGB}{123,148,178}
+	\definecolor{cinza14}{RGB}{164,177,193}
+	\definecolor{cinza15}{RGB}{143,152,169}
+	\definecolor{cinza16}{RGB}{66,77,83}
+	\definecolor{cinza17}{RGB}{130,153,171}
+	\definecolor{cinza18}{RGB}{163,180,196}
+	\definecolor{cinza19}{RGB}{194,201,209}
+	\definecolor{cinza20}{RGB}{88,105,121}
+	\definecolor{cinza21}{RGB}{81,102,121}
+	\definecolor{cinza22}{RGB}{98,128,156}
+	\definecolor{cinza23}{RGB}{95,118,146}
+	\definecolor{preto1}{RGB}{39,39,39}
+	\definecolor{amarelo1}{RGB}{207,166,50}
+	\definecolor{amarelo2}{RGB}{168,133,43}
+	\definecolor{amarelo3}{RGB}{139,110,16}
+	\definecolor{amarelo4}{RGB}{131,100,20}
+	\definecolor{amarelo5}{RGB}{115,91,3}
+	\definecolor{amarelo6}{RGB}{163,126,12}
+	\definecolor{amarelo7}{RGB}{184,142,22}
+	\definecolor{amarelo8}{RGB}{212,182,82}
+	\definecolor{amarelo9}{RGB}{219,190,114}
+	\definecolor{amarelo10}{RGB}{225,200,134}
+	\definecolor{cinza24}{RGB}{63,63,63}
+	\definecolor{amarelo11}{RGB}{146,116,34}
+	\definecolor{amarelo12}{RGB}{104,82,32}
+	\definecolor{cinza25}{RGB}{77,77,77}
+	
+	%Background
+	\draw[fill = black, draw = black] (0,100) rectangle (100,0);
+	
+	%personagem1
+	\draw[fill = cinza1, draw = cinza1] (37.5526,53.2575) rectangle (49.9735,37.4023);
+	\draw[fill=cinza2, draw = cinza2](37.5526,37.3057) rectangle (49.9076,34.494);
+	\draw[fill=cinza2,draw=cinza2](34.5838,53.2913) rectangle (37.3955,37.5869);
+	\draw[fill=cinza2,draw=cinza2](31.491,40.6797) rectangle (37.3955,37.5869);
+	\draw[fill=cinza3,draw=cinza3](31.491,53.1323) rectangle (34.4432,40.8203);
+	\draw[fill=cinza4,draw=cinza4](28.3981,53.1323) rectangle (31.6316,40.8203);
+	\draw[fill=azul1,draw=azul1](28.3981,40.603) rectangle (31.6316,37.5869);
+	\draw[fill=cinza5,draw=cinza5](25.3052,43.4914) rectangle (28.2475,40.8203);
+	\draw[fill=cinza6,draw=cinza6](25.3052,56.0035) rectangle (28.2475,43.4914);
+	\draw[fill=azul2,draw=azul2](22.0718,56.0035) rectangle (25.1647,46.5843);
+	\draw[fill=azul3,draw=azul3](22.0718,46.4035) rectangle (25.1647,43.4914);
+	\draw[fill=azul4,draw=azul4](19.2601,56.0035) rectangle (21.918,53.0015);
+	\draw[fill=azul5,draw=azul5](19.2601,53.0512) rectangle (21.918,50.0989);
+	\draw[fill=azul6,draw=azul6](19.2601,50.0989) rectangle (21.918,43.4914);
+	\draw[fill=azul7,draw=azul7](19.2601,43.4914) rectangle (21.918,40.5391);
+	\draw[fill=azul3,draw=azul3](22.0718,43.4914) rectangle (25.1647,40.5391);
+	\draw[fill=azul7,draw=azul7](22.0718,40.603) rectangle (25.1647,37.5869);
+	\draw[fill=azul8,draw=azul8](25.3052,40.603) rectangle (28.2475,37.5869);
+	\draw[fill=cinza7,draw=cinza7](25.3052,37.4057) rectangle (28.2475,34.494);
+	\draw[fill=cinza8,draw=cinza8](28.3981,37.4057) rectangle (31.6316,28.3083);
+	\draw[fill=cinza9,draw=cinza9](31.691,37.4057) rectangle (37.3955,34.494);
+	\draw[fill=cinza10,draw=cinza10](31.691,34.3) rectangle (34.4432,25.156);
+	\draw[fill=cinza11,draw=cinza11](34.494,34.3) rectangle (37.5869,21.8815);
+	\draw[fill=cinza12,draw=cinza12](37.5526,34.3) rectangle (40.7696,18.6682);
+	\draw[fill=cinza13,draw=cinza13](40.87,18.5686) rectangle (43.9829,15.8565);
+	\draw[fill=cinza14,draw=cinza14](40.87,34.3) rectangle (43.9829,18.6682);
+	\draw[fill=cinza14,draw=cinza14](43.9327,34.3) rectangle (49.9735, 28.4254);
+	\draw[fill=cinza14,draw=cinza14](43.9327,21.8815) rectangle (49.9735,15.8565);
+	\draw[fill=cinza15,draw=cinza15](43.9327,24.91) rectangle (49.9735,21.8815);
+	\draw[fill=cinza16,draw=cinza16](43.9327,28.2183) rectangle (49.9735,25.1451);
+	\draw[fill=cinza8,draw=cinza8](28.3981,56.0035) rectangle (34.4432,53.2087);
+	\draw[fill=cinza14,draw=cinza14](34.494,56.0035) rectangle (46.8616,53.4431);
+	\draw[fill=cinza17,draw=cinza17](46.8616,59.3541) rectangle (49.9735,53.4431);
+	\draw[fill=cinza18,draw=cinza18](37.5526,59.3541) rectangle (46.8416,56.0035);
+	\draw[fill=cinza18,draw=cinza18](40.7696,62.5758) rectangle (43.9327,59.4762);
+	\draw[fill=cinza12,draw=cinza12](34.3554,59.3541) rectangle (37.4185,56.1738);
+	\draw[fill=cinza17,draw=cinza17](44.026,62.5758) rectangle (47,59.4762);
+	\draw[fill=cinza12,draw=cinza12](37.5526,62.5758) rectangle (40.7696,59.4762);
+	\draw[fill=cinza11,draw=cinza11](31.5311,59.3373) rectangle (34.3428,55.9231);
+	\draw[fill=cinza10,draw=cinza10](25.004,59.3373) rectangle (31.6316,55.9231);
+	\draw[fill=cinza10,draw=cinza10](28.2174,62.5507) rectangle (34.3428,59.3373);
+	\draw[fill=cinza14,draw=cinza14](21.8906,59.2369) rectangle (25.0044,55.9231);
+	\draw[fill=cinza19,draw=cinza19](21.8906,62.5507) rectangle (25.0044,59.2369);
+	\draw[fill=cinza20,draw=cinza20](25.1044,62.5507) rectangle (28.2174,59.2369);
+	\draw[fill=cinza19,draw=cinza19](25.1044,65.7641) rectangle (28.2174,62.6503);
+	\draw[fill=cinza11,draw=cinza11](34.4432,62.6511) rectangle (37.6577,59.4377);
+	\draw[fill=cinza10,draw=cinza10](46.895,62.7515) rectangle (50,59.3373);
+	\draw[fill=cinza21,draw=cinza21](28.2174,65.7641) rectangle (50,62.6511);
+	\draw[fill=azul5,draw=azul5](46.7444,68.6385) rectangle (50,65.9889);
+	\draw[fill=cinza10,draw=cinza10](43.8449,68.6385) rectangle (46.7444,66);
+	\draw[fill=azul4,draw=azul4](40.7696,68.6385) rectangle (43.8449,66);
+	\draw[fill=cinza8, draw=cinza8](31.368,68.6385) rectangle (40.7696,66);
+	\draw[fill=cinza22,draw=cinza22](28.2048,68.6385) rectangle (31.4558,66);
+	\draw[fill=cinza14,draw=cinza14](25.1044,71.7017) rectangle (28.01,65.7389);
+	\draw[fill=cinza14,draw=cinza14](28.2048,75.0527) rectangle (31.4236,68.8);
+	\draw[fill=cinza10,draw=cinza10](31.5437,75.0527) rectangle (34.2532,68.6506);
+	\draw[fill=cinza17,draw=cinza17](31.5437,68.6385) rectangle (40.1453,66);
+	\draw[fill=cinza17,draw=cinza17](34.3554,71.7017) rectangle (37.5185,67);
+	\draw[fill=cinza11,draw=cinza11](37.621,75.0127) rectangle (40.7453,68.706);
+	\draw[fill=cinza11,draw=cinza11](34.3554,75.0127) rectangle (38.3093,71.7138);
+	\draw[fill=cinza10,draw=cinza10](40.7817,81.1154) rectangle (43.9206,68.6506);
+	\draw[fill=cinza10,draw=cinza10](34.2675,78.2158) rectangle (40.9453,74.977);
+	\draw[fill=cinza14,draw=cinza14](31.468,78.2158) rectangle (34.3132,75.1);
+	\draw[fill=cinza11,draw=cinza11](44.04,71.6152) rectangle (46.7835,68.7092);
+	\draw[fill=cinza14,draw=cinza14](46.9064,78.2158) rectangle (50,68.7311);
+	\draw[fill=cinza17,draw=cinza17](44.128,81.1137) rectangle (46.7835,71.499);
+	\draw[fill=cinza14,draw=cinza14](34.387,81.1137) rectangle (40.8477,78.3477);
+	\draw[fill=cinza17,draw=cinza17](46.2367,81.1137) rectangle (50,78.2158);
+	\draw[fill=cinza21,draw=cinza21](40.8915,84.2297) rectangle (50,81.2275);
+	
+	%personagem2
+	
+	\draw[fill=cinza1,draw=cinza1](50.1,81.1154) rectangle (56.7611,28.3083);
+	\draw[fill=preto1,draw=preto1](50.1,28.184) rectangle (62.5602,25.1);
+	\draw[fill=amarelo1,draw=amarelo1](50.1,24.9) rectangle (62.5602,21.8062);
+	\draw[fill=amarelo1,draw=amarelo1](50.1,21.8941) rectangle (59.3092,18.5552);
+	\draw[fill=amarelo1,draw=amarelo1](50.1,18.9067) rectangle (56.6853,15.8435);
+	\draw[fill=amarelo2,draw=amarelo2](56.6853,18.5552) rectangle (59.3092,15.8435);
+	\draw[fill=amarelo2,draw=amarelo2](59.4092,21.8941) rectangle (62.5602,18.6552);
+	\draw[fill=amarelo3,draw=amarelo3](62.5602,21.8062) rectangle (65.8112,18.7552);
+	\draw[fill=amarelo3,draw=amarelo3](59.4849,18.8188) rectangle (62.5602,15.8435);
+	\draw[fill=amarelo4,draw=amarelo4](62.5602,28.184) rectangle (65.8112,21.8941);
+	\draw[fill=preto1,draw=preto1](62.5602,31.2078) rectangle (65.8112,28.3083);
+	\draw[fill=cinza1,draw=cinza1](56.3117,75.0527) rectangle (62.3602,28.3083);
+	\draw[fill=amarelo5,draw=amarelo5](66,31.2078) rectangle (68.9744,21.8941);
+	\draw[fill=preto1,draw=preto1](65.99,34.4589) rectangle (68.9744,31.2957);
+	\draw[fill=cinza1,draw=cinza1](62.2087,68.6385) rectangle (65.8112,31.2957);
+	\draw[fill=amarelo3,draw=amarelo3](69.0622,34.4589) rectangle (71.6861,31.12);
+	\draw[fill=amarelo6,draw=amarelo6](69.0622,31.3836) rectangle (71.6861,24.9694);
+	\draw[fill=cinza1,draw=cinza1](65.1962,62.5758) rectangle (68.8744,34.5467);
+	\draw[fill=preto1,draw=preto1](68.9865,37.622) rectangle (71.6861,34.5467);
+	\draw[fill=cinza1,draw=cinza1](68.2714,47.0236) rectangle (71.6861,37.6220);
+	\draw[fill=amarelo2,draw=amarelo2](71.8861,34.6346) rectangle (74.92,28.2204);
+	\draw[fill=amarelo1,draw=amarelo1](71.8861,43.509) rectangle (74.92,34.8982);
+	\draw[fill=amarelo7,draw=amarelo7](75,43.509) rectangle (78.1124,37.4463);
+	\draw[fill=amarelo8,draw=amarelo8](71.8861,47.0236) rectangle (74.92,43.5969);
+	\draw[fill=amarelo1,draw=amarelo1](75,56.124) rectangle (78.2124,43.4709);
+	\draw[fill=amarelo9,draw=amarelo9](71.8861,52.6) rectangle (74.90,47.1502);
+	\draw[fill=amarelo10,draw=amarelo10](71.8861,62.5507) rectangle (74.90,52.6);
+	\draw[fill=cinza24,draw=cinza24](68.9865,65.6636) rectangle (71.7861,46.986);
+	\draw[fill=amarelo3,draw=amarelo3](75,59.3373) rectangle (78.2124,56.124);
+	\draw[fill=amarelo2,draw=amarelo2](75,62.5507) rectangle (78.2124,59.2369);
+	\draw[fill=amarelo11,draw=amarelo11](71.8861,68.5757) rectangle (75.012,62.4503);
+	\draw[fill=amarelo12,draw=amarelo12](68.99,68.5757) rectangle (71.7861,65.5632);
+	\draw[fill=amarelo11,draw=amarelo11](68.99,75.012) rectangle (71.7861,68.6762);
+	\draw[fill=cinza24,draw=cinza24](65.6731,71.7891) rectangle (68.8865,62.5507);
+	\draw[fill=cinza25,draw=cinza25](65.6731,75.012) rectangle (68.8865,71.6887);
+	\draw[fill=cinza25,draw=cinza25](62.4594,71.7891) rectangle (65.6731,68.6762);
+	\draw[fill=cinza4,draw=cinza4](62.4594,78.2158) rectangle (65.6731,71.6887);
+	\draw[fill=cinza4,draw=cinza4](59.146,81.128) rectangle (62.4598,75.1);
+	\draw[fill=cinza25,draw=cinza25](56.735,81.128) rectangle (59.2464,75.1);
+	\draw[fill=cinza24,draw=cinza24](50.1,84.2409) rectangle (59.3468,81.128);
+
+	\end{tikzpicture}
+	
+\end{document}
