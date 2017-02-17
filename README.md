@@ -5,4 +5,4 @@ A execução deste projeto vem do intuito de explorar a linguagem LaTex para con
 
 O desenho escolhido foi da dupla de Daft Punk, pois além de gostar das músicas, as mesmas sempre refletem sobre o futuro e tecnologia.
 
->O arquivo que contém a versão "compilada" é o <b>pi.pdf</b>, as demais são arquivos de configuração e o <b>.tex</b> é o código-fonte.
+>O arquivo que contém a versão "compilada" é o <b>pi.pdf</b>, as demais são arquivos de configuração e o <b>pi.tex</b> é o código-fonte.
